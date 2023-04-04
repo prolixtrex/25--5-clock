@@ -1,0 +1,43 @@
+.session {
+    border: 7px solid rgba(0, 0, 0, 0.6);
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 50px;
+    height: 150px;
+}
+
+.session.red {
+    color: red;
+}
+
+#time-left {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.controls {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 30px;
+    background: transparent;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+}
+
+.break-session {
+    display: flex;
+    margin: auto;
+    width: 350px;
+}
+
+#time-left {
+    margin-top: -10px;
+}
+
+.break {
+    margin-right: 30px;
+}
